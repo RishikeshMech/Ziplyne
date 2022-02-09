@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZiPlyne Assignment</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="box">
+            <a href="https://www.ziplyne.com/"><img src="img/Ziplynelogo.webp" alt="logo" class="logo"></a>
+        </div>
+
+    </nav>
+    <section class="sec-one" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('img/pexels-edward-jenner-4253062.jpg');background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-blend-mode: darken;">
+        <div class="container">
+            <div class="text-content">
+                <p class="eyebrow" style=" font-weight: bold;">REQUEST DEMO</p>
+                <h1>Talk to a Ziplyne Digital Adoption Expert </h1>
+                <p class="p1">Learn how Ziplyne's Digital Adoption Platform can help you achieve your desired Enterprise
+                    software outcomes.</p>
+                <ul>
+                    <li>Increase user adoption across your enterprise applications</li>
+                    <li>Automate user onboarding and training via our in-app technology</li>
+                    <li>Give your users the ultimate low touch self-service experience they have been looking for</li>
+                </ul>
+            </div>
+            <div class="contener-body">
+                <div class="container2">
+                    <form action="#">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">First Name </span>
+                                <input type="text" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Last Name </span>
+                                <input type="text" required>
+                            </div>
+                            <div class="input-box2">
+                                <span class="details">Company </span>
+                                <input type="text" required>
+                            </div>
+                            <div class="input-box2">
+                                <span class="details">Email Address </span>
+                                <input type="text" required>
+                            </div>
+                            <div class="input-box3">
+                                <span class="details">What information are you seeking? </span>
+                                <select>
+                                    <option >Select option from below....</option>
+                                    <option>Looking to understand more about DAPs</option>
+                                    <option>Seen another DAP and want to compare against Ziplyne</option>
+                                    <option>Looking to make a decision/purchase of a DAP</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <button onclick="popup()">Request a Demo</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="sec-two">
+        <h2 style="text-align: center; font-weight: 900; padding: 40px 40px;">Rating & Reviews</h2>
+        <div class="wrapper">
+
+            <div class="slider">
+          
+              <!-- Works with as many slides as are added in-->
+          
+              <input type="radio" name="slide-switches" id="slide_text" checked class="slide-switch">
+              <label for="slide_text" class="slide-label">Slide Text</label>
+              <div class="slide-content padded">
+                <h1> Sughapriya S</h1>
+                <p>"It is most amazing experience with Whatfix, it is wonderful solution for DAP"</p>
+              </div>
+          
+              <input type="radio" name="slide-switches" id="slide_image" class="slide-switch">
+              <label for="slide_image" class="slide-label">Slide Image</label>
+              <div class="slide-content">
+                <h1>  User in Mining & Metals</h1>
+                <p>"Great product backed with great support"</p>
+              </div>
+          
+              <input type="radio" name="slide-switches" id="slide_video" class="slide-switch">
+              <label for="slide_video" class="slide-label">Slide Video</label>
+              <div class="slide-content">
+                <h1>Philip K</h1>
+                <p>"WhatFix - a good solution, but not without challenges"</p>
+              </div>
+          
+            </div>
+          
+            
+          
+          </div>
+
+        
+       
+
+    </section>
+    <FOOter>
+        <ul>
+            <li>&copy;2022 ZiPlyne</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+            <li>ZiPlyne Trust</li>
+            <li>Cookies Settings</li>
+            <li>+1(234) 567-8910</li>
+        </ul>
+    </FOOter>
+    <script>
+        function popup(){
+            swal("Thank you for requesting a Demo and providing us with some more context about you.", "Our team will be in touch with you.", "success");
+        }
+    </script>
+</body>
+
+</html>
